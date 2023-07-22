@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif ;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.left-side li img{
+    height: 45px;
+    
+}
+.right-side ,.left-side{
+list-style-type: none;
+
+}
+.right-side li , .left-side li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+.right-side li a , .left-side li a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height:100%;
+    font-size: 20px;
+    color: #636361;
+   
+   
+}
+.right-side li button , .left-side li button{
+   height: 49px;
+   width: 223px;
+   font-size: 20px;
+   border-radius: 20px;
+   background-color: #184655;
+   
+}
+
+.hero-section{
+    
+    height: 680px;
+    display: flex;
+    justify-self: center;
+    margin:20px;
+    background-image:url(./images/Rectangle\ 26.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.hero-section >.first-section{
+    width: 50%;
+    height: 400px;
+    text-align: left;
+    padding-top: 150px;
+    position: relative;
+    left: 100px;
+    color: #184655;
+    font-family: 'Poppins', sans-serif;
+    
+    
+   
+}
+.hero-section > .second-section{
+
+    width: 40%;
+    height: 400px;
+    padding-top: 150px;
+}
+
+.first-section > button{
+    position: relative;
+    left: -40px;
+    border-left:none;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    height: 50px; 
+    width: 126px;
+    background-color: #184655;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px; ;
+}
+
+.first-section h1{
+    font-size: 46px;
+}
+
+
+.first-section > input{
+    position: relative;
+    height: 44px;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px; 
+}
+
+.e2{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+
+.latest-blog-section{
+    background-image: url(images/Rectangle\ 26.jpg);
+    margin: 20px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.blog-heading{
+    color: #404040;
+    margin: 15px;
+}
+
+.blog-subheading{
+    display: flex;
+    justify-content: space-between;
+    color: #6f6e6e;
+    padding: 10px;
+}
+
+.blog-desc{
+    color: #464343;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+.card-section{
+    display: flex;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow:1px  black;
+    margin: 20px;
+}
+.card-heading{
+    text-align: center;
+    color: #4A4848;
+;
+}
+
+.card-desc{
+    text-align: left;
+    color: #464343;
+    padding-left: 5px;
+}
+
+.card-img > img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-subheading{
+display: flex;
+justify-content: space-between;
+color: #6f6e6e;
+}
+ .date{
+    margin: 5px;
+}
+ .Author{
+margin: 5px;
+}
+
+.card-see-more{
+    color: #213949;
+    text-align: right;
+    margin: 10px;
+
+}
+
+
+.footer-section{
+    background-image: url(images/Rectangle\ 26.jpg);
+    display: flex;
+    height: 600px;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+.footer-headings{
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.span-style{
+    font-weight: 400;
+}
+
+.download-btn{
+    padding-left: 100px;
+}
+
+         
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+  .footer-Image{
+    padding-top : 150px; ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
